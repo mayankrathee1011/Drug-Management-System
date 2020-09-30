@@ -1,0 +1,177 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file drugsample.csproj at March 14 2007, 10:35:06.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute AutoEventWireup from file Admin_contents.aspx.
+Removed attribute Codebehind from file Admin_contents.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Admin_contents.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file allergic_symptoms_master.aspx.
+Removed attribute Codebehind from file allergic_symptoms_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file allergic_symptoms_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file allergic_symptoms_master.aspx.cs (Line 73).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file allergic_symptoms_master.aspx.cs (Line 107).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file allergic_symptoms_master.aspx.cs (Line 127).
+Removed attribute AutoEventWireup from file anti_allergic_drugs.aspx.
+Removed attribute Codebehind from file anti_allergic_drugs.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file anti_allergic_drugs.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file anti_allergic_drugs.aspx.cs (Line 73).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file anti_allergic_drugs.aspx.cs (Line 108).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file anti_allergic_drugs.aspx.cs (Line 129).
+Removed attribute AutoEventWireup from file anti_allergic_symp_drug.aspx.
+Removed attribute Codebehind from file anti_allergic_symp_drug.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file anti_allergic_symp_drug.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file anti_allergic_symp_drug.aspx.cs (Line 101).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file anti_allergic_symp_drug.aspx.cs (Line 112).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file anti_allergic_symp_drug.aspx.cs (Line 129).
+Removed attribute AutoEventWireup from file Banner_control.aspx.
+Removed attribute Codebehind from file Banner_control.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Banner_control.aspx.cs (Line 19).
+Removed attribute AutoEventWireup from file clinical_condition_master.aspx.
+Removed attribute Codebehind from file clinical_condition_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file clinical_condition_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file clinical_condition_master.aspx.cs (Line 87).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file clinical_condition_master.aspx.cs (Line 121).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file clinical_condition_master.aspx.cs (Line 140).
+Removed attribute AutoEventWireup from file condition_master.aspx.
+Removed attribute Codebehind from file condition_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file condition_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file condition_master.aspx.cs (Line 75).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file condition_master.aspx.cs (Line 106).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file condition_master.aspx.cs (Line 126).
+Removed attribute AutoEventWireup from file default.aspx.
+Removed attribute Codebehind from file default.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file default.aspx.cs (Line 27).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file default.aspx.cs (Line 52).
+Warning: Access level of 'but_Submit_Click' changed to 'protected' in file default.aspx.cs (Line 60).
+Removed attribute AutoEventWireup from file department_master.aspx.
+Removed attribute Codebehind from file department_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file department_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file department_master.aspx.cs (Line 87).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file department_master.aspx.cs (Line 120).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file department_master.aspx.cs (Line 140).
+Removed attribute AutoEventWireup from file designation_master.aspx.
+Removed attribute Codebehind from file designation_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file designation_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file designation_master.aspx.cs (Line 73).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file designation_master.aspx.cs (Line 106).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file designation_master.aspx.cs (Line 123).
+Removed attribute AutoEventWireup from file drug.aspx.
+Removed attribute Codebehind from file drug.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file drug.aspx.cs (Line 26).
+Removed attribute AutoEventWireup from file drug_information.aspx.
+Removed attribute Codebehind from file drug_information.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file drug_information.aspx.cs (Line 28).
+Removed attribute AutoEventWireup from file drug_reg_master.aspx.
+Removed attribute Codebehind from file drug_reg_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file drug_reg_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file drug_reg_master.aspx.cs (Line 75).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file drug_reg_master.aspx.cs (Line 110).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file drug_reg_master.aspx.cs (Line 129).
+Removed attribute AutoEventWireup from file drug_trail_individual.aspx.
+Removed attribute Codebehind from file drug_trail_individual.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file drug_trail_individual.aspx.cs (Line 26).
+Removed attribute AutoEventWireup from file drug_trail_master.aspx.
+Removed attribute Codebehind from file drug_trail_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file drug_trail_master.aspx.cs (Line 31).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file drug_trail_master.aspx.cs (Line 89).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file drug_trail_master.aspx.cs (Line 126).
+Warning: Access level of 'but_allergic_Click' changed to 'protected' in file drug_trail_master.aspx.cs (Line 157).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file drug_trail_master.aspx.cs (Line 182).
+Warning: Access level of 'but_reaction_Click' changed to 'protected' in file drug_trail_master.aspx.cs (Line 217).
+Warning: Access level of 'Button2_Click' changed to 'protected' in file drug_trail_master.aspx.cs (Line 241).
+Warning: Access level of 'Datagrid2_SelectedIndexChanged_1' changed to 'protected' in file drug_trail_master.aspx.cs (Line 265).
+Removed attribute AutoEventWireup from file Employee_components.aspx.
+Removed attribute Codebehind from file Employee_components.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Employee_components.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file employee_details.aspx.
+Removed attribute Codebehind from file employee_details.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employee_details.aspx.cs (Line 30).
+Removed attribute AutoEventWireup from file employee_individual_details.aspx.
+Removed attribute Codebehind from file employee_individual_details.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employee_individual_details.aspx.cs (Line 28).
+Warning: Access level of 'Datagrid1_SelectedIndexChanged' changed to 'protected' in file employee_individual_details.aspx.cs (Line 70).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file employee_individual_details.aspx.cs (Line 101).
+Removed attribute AutoEventWireup from file employee_master.aspx.
+Removed attribute Codebehind from file employee_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file employee_master.aspx.cs (Line 29).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file employee_master.aspx.cs (Line 97).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file employee_master.aspx.cs (Line 134).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file employee_master.aspx.cs (Line 162).
+Removed attribute Codebehind from file Global.asax.
+Removed attribute AutoEventWireup from file individual_ drug_trial_information.aspx.
+Removed attribute Codebehind from file individual_ drug_trial_information.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file individual_ drug_trial_information.aspx.cs (Line 30).
+Warning: Access level of 'DataGrid1_SelectedIndexChanged' changed to 'protected' in file individual_ drug_trial_information.aspx.cs (Line 72).
+Warning: Access level of 'Datagrid2_SelectedIndexChanged' changed to 'protected' in file individual_ drug_trial_information.aspx.cs (Line 87).
+Warning: Access level of 'but_allergic_Click' changed to 'protected' in file individual_ drug_trial_information.aspx.cs (Line 100).
+Warning: Access level of 'but_reaction_Click' changed to 'protected' in file individual_ drug_trial_information.aspx.cs (Line 112).
+Removed attribute AutoEventWireup from file Individual_components.aspx.
+Removed attribute Codebehind from file Individual_components.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Individual_components.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file Individual_details.aspx.
+Removed attribute Codebehind from file Individual_details.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Individual_details.aspx.cs (Line 29).
+Warning: Access level of 'Datagrid2_SelectedIndexChanged' changed to 'protected' in file Individual_details.aspx.cs (Line 67).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file Individual_details.aspx.cs (Line 80).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file Individual_details.aspx.cs (Line 90).
+Removed attribute AutoEventWireup from file Individual_info.aspx.
+Removed attribute Codebehind from file Individual_info.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file Individual_info.aspx.cs (Line 29).
+Warning: Access level of 'Datagrid1_SelectedIndexChanged' changed to 'protected' in file Individual_info.aspx.cs (Line 111).
+Removed attribute AutoEventWireup from file individual_master.aspx.
+Removed attribute Codebehind from file individual_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file individual_master.aspx.cs (Line 29).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file individual_master.aspx.cs (Line 71).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file individual_master.aspx.cs (Line 106).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file individual_master.aspx.cs (Line 127).
+Removed attribute AutoEventWireup from file login_inromation.aspx.
+Removed attribute Codebehind from file login_inromation.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file login_inromation.aspx.cs (Line 27).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file login_inromation.aspx.cs (Line 76).
+Removed attribute AutoEventWireup from file LoginForm1.aspx.
+Removed attribute Codebehind from file LoginForm1.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file LoginForm1.aspx.cs (Line 28).
+Warning: Access level of 'LinkButton2_Click' changed to 'protected' in file LoginForm1.aspx.cs (Line 57).
+Warning: Access level of 'LinkButton3_Click' changed to 'protected' in file LoginForm1.aspx.cs (Line 62).
+Warning: Access level of 'LinkButton1_Click' changed to 'protected' in file LoginForm1.aspx.cs (Line 67).
+Warning: Access level of 'but_Submit_Click' changed to 'protected' in file LoginForm1.aspx.cs (Line 72).
+Removed attribute AutoEventWireup from file New_individual_reg.aspx.
+Removed attribute Codebehind from file New_individual_reg.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file New_individual_reg.aspx.cs (Line 28).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file New_individual_reg.aspx.cs (Line 90).
+Warning: Access level of 'Button1_Click' changed to 'protected' in file New_individual_reg.aspx.cs (Line 131).
+Removed attribute AutoEventWireup from file reaction_agent_master.aspx.
+Removed attribute Codebehind from file reaction_agent_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file reaction_agent_master.aspx.cs (Line 30).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file reaction_agent_master.aspx.cs (Line 73).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file reaction_agent_master.aspx.cs (Line 108).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file reaction_agent_master.aspx.cs (Line 129).
+Removed attribute AutoEventWireup from file usage_condition_master.aspx.
+Removed attribute Codebehind from file usage_condition_master.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file usage_condition_master.aspx.cs (Line 31).
+Warning: Access level of 'but_new_Click' changed to 'protected' in file usage_condition_master.aspx.cs (Line 74).
+Warning: Access level of 'but_save_Click' changed to 'protected' in file usage_condition_master.aspx.cs (Line 108).
+Warning: Access level of 'but_grid_Click' changed to 'protected' in file usage_condition_master.aspx.cs (Line 126).
+Removed attribute AutoEventWireup from file images\banner.aspx.
+Removed attribute Codebehind from file images\banner.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file images\banner.aspx.cs (Line 20).
+Removed attribute AutoEventWireup from file images\banner1.aspx.
+Removed attribute Codebehind from file images\banner1.aspx.
+Warning: Access level of 'Page_Load' changed to 'protected' in file images\Banner1.aspx.cs (Line 20).
+Added folder App_Code.
+Moved file Global.asax.cs to the App_Code\ directory.
+Moved file AssemblyInfo.cs to the App_Code\ directory.
+Changed HTML validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\drugsample.dll.
+Removed file Bin\drugsample.pdb.
+Removed file drugsample.csproj.
+Removed file drugsample.csproj.webinfo.
+Project drugsample.csproj has been converted successfully at March 14 2007, 10:35:20.
